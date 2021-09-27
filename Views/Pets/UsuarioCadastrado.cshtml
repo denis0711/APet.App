@@ -1,0 +1,21 @@
+﻿@model APet.App.ViewModels.PetViewModel
+
+@{
+    ViewData["Title"] = "Confirmacao da conta";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<hr />
+<div>
+    <h1 class="alert-success">Usuario cadastado com sucesso !!!</h1>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+ 
+}
